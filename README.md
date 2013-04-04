@@ -1,5 +1,5 @@
 # simplicial-cartesian-product
-Constructs the [cartesian product of two graphs](http://en.wikipedia.org/wiki/Cartesian_product_of_graphs).  (Not to be confused with the tensor/categorical product.)
+Constructs the [cartesian product of two simplicial complexes](http://en.wikipedia.org/wiki/Cartesian_product_of_graphs).  (Not to be confused with the tensor/categorical product.)
 
 # Install
 
@@ -12,7 +12,7 @@ var prod = require("simplicial-cartesian-product")
 console.log(prod([[0,1]], [[0,1]]))
 ```
 
-# `require("graph-cartesian-product")(a, b)`
+# `require("simplicial-cartesian-product")(a, b)`
 Given a pair of simplicial complexes, produces their cartesian product.
 
 * `a` and `b` are [simplicial complexes](https://github.com/mikolalysenko/simplicial-complex)
