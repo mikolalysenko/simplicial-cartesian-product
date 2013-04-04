@@ -1,0 +1,39 @@
+{
+  "name": "simplicial-cartesian-product",
+  "version": "0.0.0",
+  "description": "Cartesian product of simplicial complexes",
+  "main": "prod.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "simplicial-complex": "~0.3.3"
+  },
+  "devDependencies": {
+    "deep-equal": "~0.0.0",
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/simplicial-cartesian-product.git"
+  },
+  "keywords": [
+    "cartesian",
+    "product",
+    "simplicial",
+    "complex",
+    "topology",
+    "geometry",
+    "math",
+    "graph",
+    "edge",
+    "vertex"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "520c22708d7b116adb1b4031fe455f5ada5366bd"
+}
