@@ -11,7 +11,7 @@ function cartesianProduct(a, b) {
     , result = new Array(nb * al + na * bl)
     , ptr = 0
     , i, j, k, x, y, c, nc
-  console.log(na, al, nb, bl)
+
   for(i=0; i<al; ++i) {
     c = a[i]
     for(j=0; j<nb; ++j) {
